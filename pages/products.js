@@ -2,7 +2,7 @@ exports.ProductsPage = class ProductsPage{
      constructor(page) {
         this.page = page;
         // verify adds one product to the cart
-        // select secnd product to add to cart
+        // select secondd(2nd) product to add to cart
         this.firstAddToCartBtn = page.locator('[data-test="add-to-cart-sauce-labs-bike-light"]');
 
         // Cart icon locatorr
